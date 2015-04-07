@@ -1,4 +1,5 @@
 *.pyc
 *.pyo
+fabfile.py
 /cache
 /output

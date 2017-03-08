@@ -1,0 +1,3 @@
+[submodule "hauntr"]
+	path = hauntr
+	url = https://github.com/rodrigoamaral/hauntr.git

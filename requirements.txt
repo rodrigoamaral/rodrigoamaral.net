@@ -16,4 +16,4 @@ python-dateutil==2.6.0
 pytz==2016.10
 six==1.10.0
 Unidecode==0.4.20
-webassets==0.10.1
+webassets==0.12.1

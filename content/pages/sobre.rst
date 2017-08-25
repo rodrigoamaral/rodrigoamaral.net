@@ -8,7 +8,7 @@ Meu nome é Rodrigo Amaral, sou desenvolvedor de software graduado em Ciência d
 Para entrar em contato:
 
 - `Twitter <http://twitter.com/rodrigoamaral>`_
-- `Google+ <http://plus.google.com/+RodrigoAmaral>`_
 - `Github <http://github.com/rodrigoamaral>`_
 - `Bitbucket <http://bitbucket.org/amaral>`_
 - `Linkedin <http://br.linkedin.com/in/amaral101>`_
+- `Google+ <http://plus.google.com/+RodrigoAmaral>`_

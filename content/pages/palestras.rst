@@ -3,6 +3,14 @@ Palestras
 
 Clique nos títulos para ver os slides.
 
+2016
+====
+
+`Python: Produtividade Para Todos <https://speakerdeck.com/rodrigoamaral/python-produtividade-para-todos>`_
+-----------------------------------------------------------------------------------------------------------
+
+Visão geral das características de Python que a tornam uma das linguagens mais versáteis existentes. Palestra apresentada na IV Jornada de Tecnologia da FANESE, em 7 de dezembro de 2016.
+
 2014
 ====
 

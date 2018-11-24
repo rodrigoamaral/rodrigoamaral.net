@@ -4,7 +4,7 @@ Guia para os atalhos de teclado do Sublime Text
 :date: 2013-03-20 18:51
 :summary: Algumas dicas para descobrir e memorizar os atalhos de teclado do Sublime Text.
 
-.. image:: {filename}/images/sublime_text.png
+.. image:: {static}/images/sublime_text.png
    :alt: Sublime Text
 
 Todo mundo que usa o

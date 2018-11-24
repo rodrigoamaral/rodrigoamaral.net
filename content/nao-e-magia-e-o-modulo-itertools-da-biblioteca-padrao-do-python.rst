@@ -123,5 +123,5 @@ Referência
    looping <http://docs.python.org/3/library/itertools.html>`__ (The
    Python Standard Library)
 
-.. |Não é magia, é o módulo itertools da biblioteca padrão do Python| image:: {filename}/images/python_batteries_included.jpg?w=150
-   :target: {filename}/images/python_batteries_included.jpg
+.. |Não é magia, é o módulo itertools da biblioteca padrão do Python| image:: {static}/images/python_batteries_included.jpg?w=150
+   :target: {static}/images/python_batteries_included.jpg

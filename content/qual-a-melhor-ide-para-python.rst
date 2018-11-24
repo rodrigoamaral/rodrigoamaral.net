@@ -18,8 +18,9 @@ passa uma semana sem que um iniciante faça essa pergunta - completamente
 legítima por sinal - na lista de discussão: **Qual a melhor IDE para
 programar em Python?**
 
-.. image:: {filename}/images/qual-a-melhor-ide.png
+.. image:: {static}/images/qual-a-melhor-ide.png
    :target: https://groups.google.com/forum/?fromgroups#!searchin/python-brasil/ide
+   :alt: ide-python
 
 Essa simples indagação costuma despertar a ira de algumas pessoas.
 Acredito que menos pela pergunta em si do que pela enxurrada de

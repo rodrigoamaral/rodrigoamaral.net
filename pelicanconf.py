@@ -11,7 +11,7 @@ STATIC_PATHS = ['images']
 
 TIMEZONE = 'America/Recife'
 
-DEFAULT_LANG = u'pt'
+DEFAULT_LANG = u'pt-br'
 
 # Theme
 # THEME = 'pelican-octopress-theme'

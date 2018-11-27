@@ -17,7 +17,7 @@ TIMEZONE = 'America/Recife'
 DEFAULT_LANG = u'pt-br'
 
 # Theme
-THEME = 'simple'
+THEME = 'attila'
 DIRECT_TEMPLATES = (('index', 'archives'))
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'

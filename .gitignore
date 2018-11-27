@@ -4,3 +4,4 @@ fabfile.py
 /cache
 /output
 *.pid
+/themes

@@ -6,7 +6,7 @@ HTML5 & CSS3 For The Real World
 :slug: book-review-html5-css3-for-the-real-world-by-alexis-goldstein-louis-lazaris-estelle-weyl-oreilly-media
 
 
-.. image:: {filename}/images/htmlcss_ftrw.jpg
+.. image:: {static}/images/htmlcss_ftrw.jpg
 	:alt: HTML5 & CSS3 For The Real World
 
 The purpose of `HTML5 & CSS3 for the Real World <http://shop.oreilly.com/product/9780980846904.do>`__, as
@@ -46,5 +46,5 @@ is that I didn't expect to read such a good book on the subject.
 **Book page:** `HTML5 & CSS3 for the Real
 World <http://shop.oreilly.com/product/9780980846904.do>`__
 
-.. | HTML5 & CSS3 For The Real World| image:: {filename}/images/cat.gif
+.. | HTML5 & CSS3 For The Real World| image:: {static}/images/cat.gif
    :target: http://shop.oreilly.com/product/9780980846904.do

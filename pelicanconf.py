@@ -7,16 +7,18 @@ SITENAME = u'Rodrigo Amaral'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 
 TIMEZONE = 'America/Recife'
 
 DEFAULT_LANG = u'pt-br'
 
 # Theme
-# THEME = 'pelican-octopress-theme'
-THEME = 'hauntr'
-DIRECT_TEMPLATES = (('index', 'archives', '404'))
+THEME = 'attila'
+DIRECT_TEMPLATES = (('index', 'archives'))
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 CATEGORY_URL = 'category/{slug}/'

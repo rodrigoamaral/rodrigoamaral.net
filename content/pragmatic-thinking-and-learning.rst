@@ -4,7 +4,8 @@ Pragmatic Thinking and Learning
 :date: 2010-03-30 23:11
 :summary: Resenha do livro Pragmatic Thinking and Learning
 
-.. image:: {filename}/images/pragmatic-thinking.jpg
+.. image:: {static}/images/pragmatic-thinking.jpg
+    :alt: pragmatic-thinking
 
 Em tempos de
 mundo interconectado e informação instantânea, uma das habilidades mais
@@ -161,4 +162,4 @@ caminho para explorarmos todo nosso potencial de pensar, aprender e
 aplicar os resultados, germinando as sementes para a inovação e a
 excelência. Livro recomendadíssimo para comprar e manter por perto.
 
-.. |Pragmatic Thinking and Learning: Refactor You Wetware| image:: {filename}/images/51xArZnegaL._SL500_AA240_.jpg
+.. |Pragmatic Thinking and Learning: Refactor You Wetware| image:: {static}/images/51xArZnegaL._SL500_AA240_.jpg

@@ -4,7 +4,8 @@ Nomeando fatias de sequências em Python
 :date: 2013-06-07 17:55
 :summary: Uma rápida explicação sobre como funciona a manipulção de objetos do tipo slice no Python.
 
-.. image:: {filename}/images/pizza.jpg
+.. image:: {static}/images/pizza.jpg
+    :alt: pizza
 
 
 Quem já precisou escrever algum programa para obter valores dentro de uma string, lista ou outra

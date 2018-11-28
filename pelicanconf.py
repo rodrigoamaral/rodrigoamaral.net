@@ -31,7 +31,7 @@ DEFAULT_CATEGORY = 'Blog'
 
 MENUITEMS = [('Sobre', '/sobre'),
              ('Blog', '/category/blog/'),
-             ('Projetos', '#'),
+             ('Projetos', '/projetos/'),
              ('Palestras', '/palestras/')]
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False

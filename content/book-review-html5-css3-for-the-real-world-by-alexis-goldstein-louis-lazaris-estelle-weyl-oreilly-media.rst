@@ -4,6 +4,7 @@ HTML5 & CSS3 For The Real World
 :date: 2013-08-05 21:53
 :summary: A quick review of the book "HTML5 & CSS3 For The Real World" by Alexis Goldstein, Louis Lazaris and Estelle Weyl;  published by O'Reilly Media.
 :slug: book-review-html5-css3-for-the-real-world-by-alexis-goldstein-louis-lazaris-estelle-weyl-oreilly-media
+:tags: livros, books
 
 
 .. image:: {static}/images/htmlcss_ftrw.jpg

@@ -1,7 +1,9 @@
 Projetos
 ########
 
-.. contents:: Alguns projetos pessoais
+:summary: Um breve resumo de alguns dos meus projetos paralelos.
+
+.. contents:: Um breve resumo de alguns projetos paralelos dos quais participo como autor, criador ou colaborador.
 
 Sublime Text Dicas
 ------------------

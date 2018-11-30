@@ -6,7 +6,7 @@ AUTHOR = u'Rodrigo Amaral'
 SITENAME = u'Rodrigo Amaral'
 SITEURL = ''
 
-SITESUBTITLE = 'Site pessoal de Rodrigo Amaral'
+SITESUBTITLE = ''
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra']

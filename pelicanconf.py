@@ -31,7 +31,8 @@ DEFAULT_CATEGORY = 'Blog'
 
 # Menu
 
-MENUITEMS = [('Sobre', '/sobre'),
+MENUITEMS = [('Início', '/'),
+             ('Sobre', '/sobre'),
              ('Blog', '/category/blog/'),
              ('Projetos', '/projetos/'),
              ('Palestras', '/palestras/')]

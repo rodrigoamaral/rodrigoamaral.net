@@ -6,6 +6,8 @@ AUTHOR = u'Rodrigo Amaral'
 SITENAME = u'Rodrigo Amaral'
 SITEURL = ''
 
+SITESUBTITLE = ''
+
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {

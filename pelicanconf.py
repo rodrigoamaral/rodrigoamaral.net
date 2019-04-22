@@ -31,10 +31,12 @@ DEFAULT_CATEGORY = 'Blog'
 
 # Menu
 
-MENUITEMS = [('Sobre', '/sobre'),
+MENUITEMS = [('Início', '/'),
+             ('Sobre', '/sobre'),
              ('Blog', '/category/blog/'),
              ('Projetos', '/projetos/'),
-             ('Palestras', '/palestras/')]
+             ('Palestras', '/palestras/'),
+             ('Minicurso Python', '/minicurso-python/')]
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 

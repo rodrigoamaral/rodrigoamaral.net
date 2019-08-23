@@ -3,6 +3,17 @@ Palestras
 
 Clique nos títulos para ver os slides.
 
+2019
+====
+
+`Análise de Dados com Python no dia a dia: substituindo planilhas por código <https://speakerdeck.com/rodrigoamaral/analise-de-dados-com-python-no-dia-a-dia-substituindo-planilhas-por-codigo>`_
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+O uso de planilhas é muito comum em tarefas que envolvem transformação e análise de dados. No entanto, essa abordagem pode facilmente se tornar demorada, tediosa e propensa a erros. Nesta palestra veremos como é possível usar Python para automatizar tarefas do cotidiano empresarial e acadêmico com um mínimo de esforço. Palestra apresentada no Departamento de Computação da UFS, em 23 de agosto de 2019.
+
+Código-fonte de exemplo em https://github.com/rodrigoamaral/python-planilhas
+
+
 2016
 ====
 

@@ -6,3 +6,4 @@ fabfile.py
 *.pid
 /themes
 /.vscode
+.env

@@ -12,10 +12,10 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=localhost
-SSH_PORT=22
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_HOST=$(RODRIGOAMARAL_NET_SSH_HOST)
+SSH_PORT=$(RODRIGOAMARAL_NET_SSH_PORT)
+SSH_USER=$(RODRIGOAMARAL_NET_SSH_USER)
+SSH_TARGET_DIR=$(RODRIGOAMARAL_NET_SSH_TARGET_DIR)
 
 S3_BUCKET=my_s3_bucket
 
@@ -106,5 +106,6 @@ cf_upload: publish
 github: publish
 	ghp-import -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
+
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github

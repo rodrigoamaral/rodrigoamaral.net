@@ -25,7 +25,7 @@ The site should now be available at `http://localhost:8000`.
 
 ## Configuring
 
-Aute ex enim ipsum dolor irure. Lorem deserunt nulla eu ipsum in elit eu excepteur officia. Laboris adipisicing consectetur aute ea ad quis pariatur nisi ipsum voluptate eiusmod minim. Nostrud officia laboris amet id exercitation. Nostrud aliqua aliqua labore nisi non laboris aute nisi exercitation aliqua officia. Id laborum sunt tempor labore ut id sunt nulla ipsum. Incididunt sit do sunt ad est consequat qui quis.
+TODO
 
 ## Publishing
 

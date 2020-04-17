@@ -36,6 +36,7 @@ MENUITEMS = [('Início', '/'),
              ('Blog', '/category/blog/'),
              ('Projetos', '/projetos/'),
              ('Palestras', '/palestras/'),
+             ('Podcasts', '/podcasts/'),
              ('Minicurso Python', '/minicurso-python/')]
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
@@ -65,6 +66,10 @@ DEFAULT_PAGINATION = 5
 
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['assets']
+
+# Testing plugins
+PLUGIN_PATHS += ['plugins']
+PLUGINS += ['pelican-opml']
 
 # Google Analytics
 GOOGLE_ANALYTICS = 'UA-1400375-1'

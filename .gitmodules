@@ -1,3 +1,6 @@
 [submodule "attila"]
 	path = attila
 	url = https://github.com/rodrigoamaral/attila.git
+[submodule "plugins/pelican-opml"]
+	path = plugins/pelican-opml
+	url = git@github.com:rodrigoamaral/pelican-opml.git

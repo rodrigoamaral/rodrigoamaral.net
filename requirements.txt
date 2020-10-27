@@ -3,7 +3,7 @@ bcrypt==3.1.4
 beautifulsoup4==4.6.3
 blinker==1.4
 cffi==1.11.5
-cryptography==2.4.1
+cryptography==3.2
 cssmin==0.2.0
 docutils==0.14
 ecdsa==0.13.3

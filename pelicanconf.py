@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Rodrigo Amaral'
 SITENAME = u'Rodrigo Amaral'
-SITEURL = ''
+SITEURL = 'http://rodrigoamaral.net'
 
 SITESUBTITLE = ''
 
@@ -64,12 +64,8 @@ DEFAULT_PAGINATION = 5
 
 # Plugins
 
-PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['assets']
-
-# Testing plugins
-PLUGIN_PATHS += ['plugins']
-PLUGINS += ['pelican-opml']
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['pelican-opml']
 
 # Google Analytics
 GOOGLE_ANALYTICS = 'UA-1400375-1'

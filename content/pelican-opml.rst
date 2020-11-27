@@ -19,13 +19,19 @@ A maneira mais comum de compartilhar listas de feeds é usando arquivos no padr�
 
 .. Explicação sobre o plugin e seu desenvolvimento
 
-Pensando nesse tipo de necessidade, criei um pequeno plugin para Pelican que basicamente lê um arquivo OPML e gera uma lista dos feeds em formato HTML para ser inserida em páginas do site. A abordagem utilizada foi a mais "ingênua" possível. Por enquanto, implementei apenas o suficiente para ler os arquivos gerados pelo `Pocket Casts`_ , aplicativo de podcasts que uso atualmente. Optei por não utilizar nenhuma biblioteca pronta para lidar com o formato OPML porque 1) não queria adicionar dependências extras além do Pelican e 2) queria aprender um pouco sobre como lidar com arquivos XML. Como o próprio Pelican já tem como dependência externa a popular biblioteca `lxml`_, esse foi o caminho escolhido.
+Pensando nesse tipo de necessidade, criei um pequeno plugin para Pelican que basicamente lê um arquivo OPML e gera uma lista dos feeds em formato HTML para ser inserida em páginas do site. A abordagem utilizada foi a mais "ingênua" possível. Por enquanto, implementei apenas o suficiente para ler os arquivos gerados pelo `Pocket Casts`_ , aplicativo de podcasts que uso atualmente. Optei por não utilizar nenhuma biblioteca pronta para lidar com o formato OPML porque 1) não queria adicionar dependências extras além do Pelican e 2) queria aprender um pouco sobre como lidar com arquivos XML. Para isso, o uso da popular biblioteca `lxml`_ foi o caminho escolhido.
 
 
 Lendo arquivos XML com lxml
 ===========================
 
-O primeiro passo foi aprender como ler arquivos XML usando o lxml. Para fazer o *parse* de um arquivo que contém uma estrutura XML, usamos o método ``parse()``  o módulo ``lxml.etree``. O método recebe um arquivo (ou objeto *file-like*) aberto e retorna um objeto do tipo ``ElementTree``. Outra opção é passar diretamente uma string com o caminho do arquivo.
+A biblioteca ``lxml`` pode ser instalada via pip:
+
+::
+
+  $ pip install lxml
+
+Após a instalação, o primeiro passo foi aprender como ler arquivos XML usando o lxml. Para fazer o *parse* de um arquivo que contém uma estrutura XML, usamos o método ``parse()``  o módulo ``lxml.etree``. O método recebe um arquivo (ou objeto *file-like*) aberto e retorna um objeto do tipo ``ElementTree``. Outra opção é passar diretamente uma string com o caminho do arquivo.
 
 ::
 

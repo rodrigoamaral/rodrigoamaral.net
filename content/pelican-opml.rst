@@ -5,8 +5,9 @@ Compartilhando listas de podcasts em sites Pelican
 :summary: Como criar um plugin do Pelican para publicar uma página com uma lista de links para podcasts a partir de um arquivo no formato OPML
 
 
-.. image:: {static}/images/podcast-microphone.jpg
-    :alt: Podcast microphone
+.. figure:: {static}/images/podcast-microphone.jpg
+   :alt: Podcast microphone
+
 
 .. Por quê?
 
@@ -45,7 +46,7 @@ Após a instalação, o primeiro passo foi aprender como ler arquivos XML usando
   # opção 2
   tree = etree.parse("arquivo.xml")
 
-Uma vez que já temos o nosso  ``ElementTree`` carregado com a estrutura do XML, precisamos obter o nó inicial (*root*) para percorrer a estrutura a partir dele. Para isso, vamos usar o método ``getroot()``. No nosso caso específico - arquivos que seguem a especificação `OPML`_ - o elemento do XML que nos interessa é o ``<outline>``. Sendo assim, podemos usar o método ``iter()`` do elemento inicial para encontrar todas as ocorrências de ``<outline>`` que partem dele. Por fim, usamos o método ``get()`` para obter o valor dos atributos que nos interessam, que no caso são o ``text`` e ``xmlUrl``, e armazená-los em alguma estrutura:
+Uma vez que já temos o nosso  ``ElementTree`` carregado com a estrutura do XML, precisamos obter o nó inicial (*root*) para percorrer a estrutura a partir dele. Para isso, vamos usar o método ``getroot()``. No nosso caso específico - arquivos que seguem a especificação `OPML`_ - o elemento do XML que nos interessa é o ``<outline>``. Sendo assim, podemos usar o método ``iter()`` do elemento inicial para encontrar todas as ocorrências de ``<outline>`` que partem dele. Por fim, usamos o método ``get()`` para obter o valor dos atributos que nos interessam, que no caso são o ``text`` e ``xmlUrl``, e armazená-los em alguma estrutura. No exemplo abaixo, os atributos são armazenados em uma lista de tuplas:
 
 :: 
 
@@ -56,7 +57,7 @@ Uma vez que já temos o nosso  ``ElementTree`` carregado com a estrutura do XML,
       url = e.get("xmlUrl")
       elements.append((text, url))
 
-(...)
+Com os dados em mãos, é possível então montar strings em diferentes formatos de saída.
 
 Criando um plugin para Pelican
 ==============================
@@ -79,12 +80,9 @@ Um plugin do Pelican consiste em módulo que possui uma função chamada ``regis
   def register():
       signals.initialized.connect(test)
 
-
-
 .. Conclusão
 
 O código completo com os detalhes da implementação está disponível em `<https://github.com/rodrigoamaral/pelican-opml>`__ e contribuições são muito bem vindas!
-
 
 Image by `StockSnap <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2618102">`_ from `Pixabay <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2618102">`_.
 

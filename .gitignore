@@ -7,3 +7,4 @@ fabfile.py
 /themes
 /.vscode
 .env
+.venv

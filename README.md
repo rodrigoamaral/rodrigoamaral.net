@@ -21,6 +21,10 @@ Check if it is working properly by building the HTML output and starting the dev
     $ make html
     $ pelican --listen --verbose
 
+Or:
+
+    $ make devserver
+
 The site should now be available at `http://localhost:8000`.
 
 ## Configuring

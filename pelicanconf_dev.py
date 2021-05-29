@@ -6,7 +6,7 @@
 # SITENAME = u'Rodrigo Amaral'
 AUTHOR = 'Rodrigo Amaral'
 SITENAME = 'Rodrigo Amaral'
-SITEURL = 'https://rodrigoamaral.net'
+SITEURL = ''
 
 SITESUBTITLE = ''
 
@@ -45,7 +45,6 @@ DISPLAY_PAGES_ON_MENU = False
 
 
 # Feed generation is usually not desired when developing
-FEED_ALL_RSS = 'feeds/rss.xml'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None

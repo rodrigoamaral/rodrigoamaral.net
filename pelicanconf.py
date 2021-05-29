@@ -6,7 +6,7 @@
 # SITENAME = u'Rodrigo Amaral'
 AUTHOR = 'Rodrigo Amaral'
 SITENAME = 'Rodrigo Amaral'
-SITEURL = 'http://rodrigoamaral.net'
+SITEURL = 'https://rodrigoamaral.net'
 
 SITESUBTITLE = ''
 

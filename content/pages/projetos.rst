@@ -24,7 +24,7 @@ CodeGym
 
 Canal do Telegram no qual compartilho conteúdo sobre programação e desenvolvimento de software.
 
-**Link:** http://codegym.com.br/
+**Link:** https://t.me/codegym
 
 Sublime Text Dicas
 ------------------
